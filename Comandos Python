@@ -4,7 +4,7 @@ with open('exemple.csv') as file:
     read = csv.reader(file, delimiter =',')
     print(read)
     for row in read:
-        print(row)        
+        print(row)         
         
 -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
